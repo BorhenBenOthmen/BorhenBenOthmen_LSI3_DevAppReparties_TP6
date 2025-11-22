@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="conversionClient">
+    <output-path>$PROJECT_DIR$/conversionClient</output-path>
+    <root id="archive" name="conversionClient.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/src/rmiService/IConversion.java" />
+      <element id="artifact" artifact-name="unnamed" />
+      <element id="module-output" name="RMIConversion_Server" />
+    </root>
+  </artifact>
+</component>
