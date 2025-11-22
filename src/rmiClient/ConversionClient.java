@@ -11,6 +11,7 @@ public class ConversionClient {
             IConversion stub = (IConversion) registry.lookup("ConversionService");
             System.out.println("Objet distant trouvé : ConversionService");
 
+
             // 3. Obtenir le montant à convertir (argument ou saisie utilisateur)
             double montant;
             if (args.length > 0) {
